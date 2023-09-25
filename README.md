@@ -46,4 +46,4 @@ To run a Python "Hello World" program using a Dockerfile and Docker container, f
 
     This command starts a new container based on the "hello-python" image, which executes the `hello.py` script, and you will see "Hello, World!" printed in the terminal.
 
-That's it! You've successfully created a Docker image and container to run a Python "Hello World" program. You can replace the `hello.py` script with your Python application code, and the Dockerfile can be customized for your specific requirements.
+### ---------------------------------------------------------------------------------------------
