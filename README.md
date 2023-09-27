@@ -48,8 +48,7 @@ To run a Python "Hello World" program using a Dockerfile and Docker container, f
 
 ### ---------------------------------------------------------------------------------------------------
 ### What is Docker Swam ?
-“Docker Swarm is a tool for container Orchestration”
-“A Swarm is Group of machines that are running Docker and join into Cluster”
+Docker Swarm is a tool for container Orchestration. A Swarm is Group of machines that are running Docker and join into Cluster.
 
 Orchestration means managing and controlling multiple docker containers as a single service
 Deployment  of containers
