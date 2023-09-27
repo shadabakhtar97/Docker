@@ -61,6 +61,10 @@ Resource allocation
 Load Balancing
 
 Health Monitoring
+### Understanding Docker Swarm Architecture 
+![image](https://github.com/shadabakhtar97/Docker/assets/43212251/aba42512-2a91-4689-95a5-dc89bf40853a)
+
+
 
 
 
