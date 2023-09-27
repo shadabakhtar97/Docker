@@ -46,7 +46,13 @@ To run a Python "Hello World" program using a Dockerfile and Docker container, f
 
     This command starts a new container based on the "hello-python" image, which executes the `hello.py` script, and you will see "Hello, World!" printed in the terminal.
 
-### ---------------------------------------------------------------------------------------------------
+### ------------------------------------------------------------------------------------------------------------
+### Module Introduction
+What is Docker Swam?
+
+Docker swarm components
+
+
 ### What is Docker Swam ?
 Docker Swarm is a tool for container Orchestration. A Swarm is Group of machines that are running Docker and join into Cluster.
 
@@ -63,6 +69,31 @@ Load Balancing
 Health Monitoring
 ### Understanding Docker Swarm Architecture 
 ![image](https://github.com/shadabakhtar97/Docker/assets/43212251/aba42512-2a91-4689-95a5-dc89bf40853a)
+### Docker swarm components
+**Service:**
+Service defines the tasks that needs to be executed on the manager 	and worker nodes.
+
+**Tasks:**
+Tasks refer to the docker containers that execute the commands defined in the service 
+![image](https://github.com/shadabakhtar97/Docker/assets/43212251/7764181a-2f6a-4936-97ec-8ffbc612712c)
+
+**Manager Node:**
+Manager node is responsible for  accepting commands and creating service object. 
+
+It allocates ip address to tasks
+
+It assign tasks to nodes
+
+It instructing a worker to run a task  
+
+
+**Worker Node:**
+Worker nodes are responsible for checking assigned tasks and executing container.
+
+
+
+
+
 
 
 
