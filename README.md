@@ -46,4 +46,18 @@ To run a Python "Hello World" program using a Dockerfile and Docker container, f
 
     This command starts a new container based on the "hello-python" image, which executes the `hello.py` script, and you will see "Hello, World!" printed in the terminal.
 
-### ---------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------
+### What is Docker Swam ?
+“Docker Swarm is a tool for container Orchestration”
+“A Swarm is Group of machines that are running Docker and join into Cluster”
+
+Orchestration means managing and controlling multiple docker containers as a single service
+Deployment  of containers
+Scaling 
+Resource allocation
+Load Balancing
+Health Monitoring
+
+
+
+
