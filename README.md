@@ -50,6 +50,8 @@ To run a Python "Hello World" program using a Dockerfile and Docker container, f
 ### Module Introduction
 What is Docker Swam?
 
+Understanding Docker Swarm Architecture 
+
 Docker swarm components
 
 
