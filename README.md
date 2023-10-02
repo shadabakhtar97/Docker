@@ -91,6 +91,11 @@ It instructing a worker to run a task
 
 **Worker Node:**
 Worker nodes are responsible for checking assigned tasks and executing container.
+### --------------------------------------------------------------------------------------------------------------
+### Error response from daemon: Timeout was reached before node joined. The attempt to join the swarm will continue in the background. Use the "docker info" command to see the current swarm status of your node.
+### Solution
+Open all port in security group inbound traffic
+
 
 
 
