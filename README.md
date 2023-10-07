@@ -94,6 +94,91 @@ Learn Docker Deep Dive
 
 That's it! Docker is now installed and ready to use on your Ubuntu laptop. You can start using Docker to create and manage containers for your applications.
 ### ----------------------------------------------------------------------------------------
+### To install Docker on a CentOS laptop, you can follow these steps:
+
+**Note:** Make sure your CentOS system is up to date before proceeding.
+
+1. **Update and Upgrade**:
+
+   Open a terminal and run the following commands to ensure that your package list is up to date and to upgrade existing packages:
+
+   ```bash
+   sudo yum update
+   ```
+
+2. **Uninstall Old Versions** (if applicable):
+
+   If you have an older version of Docker installed, you should uninstall it to prevent conflicts:
+
+   ```bash
+   sudo yum remove docker docker-common docker-selinux docker-engine
+   ```
+
+3. **Install Dependencies**:
+
+   Install the necessary dependencies for Docker:
+
+   ```bash
+   sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+   ```
+
+4. **Add Docker Repository**:
+
+   Add the official Docker repository to your system:
+
+   ```bash
+   sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+   ```
+
+5. **Install Docker Engine**:
+
+   Install Docker with the following command:
+
+   ```bash
+   sudo yum install docker-ce
+   ```
+
+6. **Start and Enable Docker**:
+
+   Start the Docker service and enable it to start on boot:
+
+   ```bash
+   sudo systemctl start docker
+   sudo systemctl enable docker
+   ```
+
+7. **Verify Installation**:
+
+   To verify that Docker is installed and running, you can run the following command:
+
+   ```bash
+   sudo docker --version
+   ```
+
+   You should see the Docker version information displayed.
+
+8. **Manage Docker as a Non-root User (Optional)**:
+
+   By default, Docker commands require root (sudo) privileges. If you want to manage Docker as a non-root user, you can add your user to the `docker` group. Replace `<username>` with your actual username:
+
+   ```bash
+   sudo usermod -aG docker <username>
+   ```
+
+   After adding your user to the `docker` group, you'll need to log out and log back in for the changes to take effect.
+
+9. **Test Docker**:
+
+   You can run a simple test to ensure Docker is working correctly. Try running the following command to pull and run a Docker image:
+
+   ```bash
+   docker run hello-world
+   ```
+
+   If Docker is properly installed, you should see a message indicating that your installation appears to be working correctly.
+
+That's it! Docker is now installed and ready to use on your CentOS laptop. You can start using Docker to create and manage containers for your applications.
+### ----------------------------------------------------------------------------------------
 ### How to run python "hello world" program using dockerfile and docker container?
 To run a Python "Hello World" program using a Dockerfile and Docker container, follow these steps:
 
